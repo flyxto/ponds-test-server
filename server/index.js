@@ -14,7 +14,7 @@ const io = new Server(server, { cors: { origin: "*" } });
 app.use(
   cors({
     // origin: "https://ponds-photo-booth.vercel.app",
-    origin: "http://192.168.1.105:3000"
+    origin: "http://192.168.1.105:3000",
     // origin: "http://localhost:3000",
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
     credentials: true,
